@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 
 const playPauseButton = document.getElementById('playPauseButton')
-let isPlaying = false // 初始状态为未播放
+let isPlaying = true // 初始状态为播放
 
 playPauseButton.addEventListener('click', () => {
   isPlaying = !isPlaying // 切换播放状态
